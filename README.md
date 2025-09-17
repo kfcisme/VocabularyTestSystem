@@ -111,31 +111,6 @@ streamlit run app.py
 
 ---
 
-## 🗃️ Project Structure
-
-Example structure (adjust to your repo):
-
-```
-VocabularyTestSystem/
-├─ data/
-│  └─ wordlist.xlsx
-├─ out/
-│  ├─ test_paper.pdf
-│  └─ test_answer.pdf
-├─ src/
-│  ├─ generator.py        # main generation logic
-│  ├─ distractors.py      # distractor generation
-│  ├─ pdf.py              # PDF output
-│  └─ utils.py            # helpers
-├─ main.py                # CLI entry
-├─ app.py                 # optional web/GUI entry
-├─ config.yaml            # optional settings
-├─ requirements.txt
-└─ README.md
-```
-
----
-
 ## 🔧 Configuration (Optional)
 
 `config.yaml` example:
